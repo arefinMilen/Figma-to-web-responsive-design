@@ -109,9 +109,28 @@ top: 40px; */
 .btn{
     border: 1px solid ;
 }
-.btn-style
+.profile .btn-style
 {
-    border: 1px solid red;
+    /* border: 5px solid red; */
+    width: 82px;
+    height: 36px;
+    padding: 0 5px;
+    background-color: #F2F8FC;
+    margin-top: 20px;
+}
+.profile li{
+    text-align: center;
+}
+.profile-name{
+    /* border: 1px solid ; */
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.4px;
+}
+.profile-title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.75px;
 }
 .profile-des
 {
