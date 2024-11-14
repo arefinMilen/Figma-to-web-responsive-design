@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Figma to html</title>
     <!-- css link here  -->
     <link rel="stylesheet" href="style.css">
     <!-- bootstrap link for css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
-<body>
+<body class="d-flex flex-column mt-5 align-items-center w-100">
     
-    <div class="container-sm">
-        <div class="container main-div">
+    <div class="outer-border  mt-5 px-1 ">
+        <div class="main-div flex-column">
             <!-- nav starts here  -->
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar ">
                 <p class="time">9:41</p>
                 <img src="/Images/punch-hole.svg" alt="">
                 <ul class="img-position">
@@ -26,55 +26,110 @@
                 </ul>
             </nav>
             <!-- nav end here  -->
-             <!-- nav lower part start here  -->
-          <div class="nav-2">
-            <ul>
-                <li><img class="left-arrow" src="/Images/chevron-left.svg" alt=""></li>
-                <li class="mentor-pro">Mentor Profile</li>
-                <li><img class="love-img" src="/Images/Vector.svg" alt=""></li>
-            </ul>
-          </div>
+             <!--section-1 nav lower part start here  -->
+          <section class="h-100 " style="overflow-y:scroll; ">
+<!-- section-2 -->
+             <section class="left-arrow  w-100 d-flex align-items-center justify-content-between mt-4 mt-md-3 mx-auto">
+                <img src="/Images/chevron-left.svg" style="width: 12px; margin-left: -12px;"> 
+                <h1 class=" m-0 " style="font-size: 14px;">Mentor Profile</h1> 
+                <img class="love-img" src="/Images/Vector.svg" style="margin-right: -35px;">
+             </section>
+          
           <!-- nav lower ends here  -->
 
           <!-- profile  section starts here  -->
-          <div class="profile-photo">
-            <img src="/Images/profile.svg" alt="">
-          </div>
-          
-          <div class="profile">
-            <ul class="">
+           
+          <!-- section-3 -->
+          <section class="profile d-flex flex-column align-items-center px-3 pb-3 mb-5">
+            <!-- section-4 student degree, img , course start here -->
+            <section class="w-100 d-flex justify-content-between align-items-center position-relative list-unstyled">
                 <li><button class="btn btn-style"><img src="/Images/degree.svg" alt=""> 150</button><br> Students</li>
-                <li></li>
+                <li><img class="profile-photo" src="/Images/profile.svg"></li>
                 <li> <button class="btn btn-style"><img src="/Images/dollar.svg" alt=""> $28</button> <br>Course</li>
-            </ul>
-            <div class="profile-des">
-                <h1 class="profile-name">Yasin Ahmed <img src="/Images/verified.svg" alt=""></h1>
-                <h2 class="profile-title">Lead User Experience Designer</h2>
-            </div>
+            </section>
+            <!-- student degree, img , course ends here -->
+
+            <!-- section-4 name and position start here -->
+            <section class="profile-des ">
+                <h1 class="profile-name text-center">Yasin Ahmed <img src="/Images/verified.svg" alt=""></h1>
+                <h2 class="profile-title text-center">Lead User Experience Designer</h2>
+            </section>
+            <!-- name and position ends here -->
+
             <!-- social link start here -->
-            <div class="social-link">
-                <button class="btn"><img src="/Images/fiver.svg" alt=""></button>
-                <button class="btn"><img src="/Images/linkedin.svg" alt=""></button>
-                <button class="btn"><img src="/Images/BE.svg" alt=""></button>
-                <button class="btn"><img src="/Images/X-Box.svg" alt=""></button>
-                <button class="btn"><img src="/Images/youtube.svg" alt=""></button>
+            <div class="social-link d-flex w-100 align-items-center justify-content-between mt-2 ">
+                <button class="btn btn-social col-md-2"><img src="/Images/fiver.svg" alt=""></button>
+                <button class="btn btn-social col-md-2"><img src="/Images/linkedin.svg" alt=""></button>
+                <button class="btn btn-social col-md-2"><img src="/Images/BE.svg" alt=""></button>
+                <button class="btn btn-social col-md-2"><img src="/Images/X-Box.svg" alt=""></button>
+                <button class="btn btn-social col-md-2"><img src="/Images/youtube.svg" alt=""></button>
             </div>
             <!-- social link ends here  -->
-            <div class="info-btn">
-                <button class="btn">About me</button>
-                <button class="btn">Content</button>
-                <button class="btn">Reviews</button>
-            </div>
-            <div class="profile-des">
-                <p>As Lead UX Designer at Nebulae, I specialize in crafting user-centered designs, from research to prototyping, and work  closely  with cross-functional  teams.I also teach UX/UI at  Nebulae and GP Academy, guiding students in design fundamentals and portfolio creation. With 6 years as a freelancer, I bring adaptable,  innovative solutions tailored to   client needs on every project.</p>
-            </div>
-            <button class="btn">
-                Career roadmap and advice
-            </button><br>
-            <button class="btn">Message</button><br>
-            <button class="btn">Enroll Now</button>
-          </div>
 
+             <!--section-5 info section start here  -->
+            <section class="info-btn  w-100 mt-3" >
+                <!-- <button class="btn btn-pro-info m-2">About me</button>
+                <button class="btn btn-pro-info inactive m-2">Content</button>
+                <button class="btn btn-pro-info m-2">Reviews</button> -->
+                <ul class="nav nav-pills w-100 align-items-center justify-content-between gap-1">
+                    <li class='nav-item tabClass'>
+                      <a class='nav-link' style="color: #414042; background-color: #ECEAF9;" href='#'>About me</a>
+                    </li>
+                    <li class='nav-item tabClass'>
+                      <a class='nav-link'style="color: #414042; background-color:#F2F8FC;"  href='#A2'>Content</a>
+                    </li>
+                    <li class='nav-item tabClass'>
+                      <a class='nav-link'  style="color: #414042; background-color:#F2F8FC;"href='#A3'>Reviews</a>
+                    </li>
+                  </ul>
+            
+            <div class=" tab-content container text-start ">
+                <p class="mt-3 " style="text-align: justify;">As Lead UX Designer at Nebulae, I specialize in crafting user-centered designs, from research to prototyping, and work  closely  with cross-functional  teams.I also teach UX/UI at  Nebulae and GP Academy, guiding students in design fundamentals and portfolio creation. With 6 years as a freelancer, I bring adaptable,  innovative solutions tailored to   client needs on every project.</p>
+            </div>
+        </section>
+            <!--section-6 footer link start here -->
+             <section class="d-flex flex-column align-items-start w-100 gap-3 mt-3 ">
+                <a class="w-100 text-decoration-none" href="#">
+                <div class="career-footer btn w-full p-0 fw-bold w-100 text-start  d-flex justify-content-between">Career roadmap and advice
+                    <img src="/Images/chevron-left.svg" style="width: 12px; rotate: -180deg;">
+                </div>
+            </a>
+                <a class="w-100 text-decoration-none" href="#">
+                <div class="career-footer btn w-full p-0 fw-bold w-100 text-start  d-flex justify-content-between">Message
+                    <img src="/Images/chevron-left.svg" style="width: 12px; rotate: -180deg;">
+                </div>
+            </a>
+
+            <a class="w-100" href="#">
+                <div class=" enroll-footer btn w-full p-0 fw-bold w-100 text-center text-white">Enroll Now</div>
+            </a>
+             </section>
+            <!-- <button class="btn">
+                <ul>
+                    <li>Career roadmap and advice</li>
+                    <li></li>
+                   </ul>
+                
+            </button><br> -->
+            <!-- <button class="btn">
+               <ul>
+                <li>Message</li>
+                <li></li>
+               </ul> </button><br> -->
+            <!-- <button class="btn">Enroll Now</button> -->
+            </section> 
+ 
+            <!--section-7 footer-line starts here  -->
+             <section class="footer-line w-100 mx-auto position-absolute d-flex justify-content-center align-items-center"> 
+                <!-- section-8 -->
+                <section class="line-style rounded-pill">
+
+                </section>
+             </section>
+          <!-- <div class="align-items-center ">
+            <img src="/Images/Home Indicator.svg" alt="">
+          </div> -->
+        </section>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
