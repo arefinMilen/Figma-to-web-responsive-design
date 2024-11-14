@@ -14,9 +14,9 @@ body{
 }
 .outer-border{
 width:100%;
-max-width: 468px;
+max-width: 431px;
 height:200vh;
-max-height: 970px;
+max-height: 1070px;
 border: 6px solid #3F3E3B;
 padding-block: 4px;
 padding-inline: 2px;
