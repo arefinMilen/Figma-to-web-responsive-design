@@ -52,15 +52,7 @@ top: 40px; */
 .time{
     margin-left: 43px; 
 }
-/* .nav-2 ul ,.profile ul{
-    list-style: none;
-    text-decoration: none;
-    display: flex;
-    justify-content: space-between;
-    margin-right: 20px;
-    margin-top: 20px;
-    /* border: 1px solid; */
-     
+ 
  
 .profile{
     /* width: 395px; */
@@ -70,24 +62,17 @@ top: 40px; */
     margin-top: 55px;
      
 }
-/* .profile ul{
-    border: 1px solid;
-} */
+ 
 .profile-photo 
 {
-     /* position: absolute; */
-    /* display: flex; */
-    /* align-items: center;
-    justify-content: center; */
+      
     border: 5px solid rgba(236, 234, 249, 1);
     border-radius: 12px;
-    /* margin-left: 145px; */
     margin-top: -35px;
      
 }
 .left-arrow{
-    /* border: 1px solid; */
-    /* margin-left: -10px; */
+    
     padding-inline: 35px;
     margin-top: 60px !important;
 }
@@ -96,10 +81,9 @@ top: 40px; */
     margin-right: 10px;
 }
 .love-img{
-  
+
  background-color: linear-gradient(146.94deg, #0720FF 19.71%, #9018CD 49.3%, #B316C0 81.35%);
-/* border: 1px solid; */
- 
+
 }
  
 .btn{
@@ -107,7 +91,7 @@ top: 40px; */
 }
 .profile .btn-style
 {
-    /* border: 5px solid red; */
+
     width: 82px;
     height: 36px;
     padding: 0 5px;
@@ -145,7 +129,7 @@ background-color: #F2F8FC;
     /* background-color: #ECEAF9; */
    /* color: black; */
 
-    /* border: 1px solid; */
+    /* border: 1px solid black; */
 }
 /* .btn-pro-info{
     border: 1px solid ;
@@ -184,4 +168,15 @@ a .enroll-footer{
     background-color: black;
     padding: 2px;
     width: 35%;
+}
+
+@media (max-width:410px) {
+    .nav-item{
+        /* border: 1px solid red; */
+        width: 32%;
+        font-size: 10px;
+    }
+    /* .nav{
+        border: 1px solid black;
+    } */
 }
