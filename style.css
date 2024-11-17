@@ -69,6 +69,7 @@ top: 40px; */
     border: 5px solid rgba(236, 234, 249, 1);
     border-radius: 12px;
     margin-top: -35px;
+    /* border: 1px solid; */
      
 }
 .left-arrow{
@@ -97,6 +98,7 @@ top: 40px; */
     padding: 0 5px;
     background-color: #F2F8FC;
     margin-top: 20px;
+    /* border: 1px solid; */
 }
 .profile li{
     text-align: center;
@@ -176,6 +178,20 @@ a .enroll-footer{
         width: 32%;
         font-size: 10px;
     }
+
+    .profile-photo 
+{
+    /* border: 1px solid; */
+     width: 100%;
+}
+.profile .btn-style
+{
+
+    width:64px;
+    height: 36px;
+   
+    /* border: 1px solid; */
+}
     /* .nav{
         border: 1px solid black;
     } */
